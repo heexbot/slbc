@@ -17,9 +17,9 @@ const client = new Discord.Client();
 
 var prefix = "w";
 
-var adminprefix = "Wb";
+var adminprefix = "%";
 
-const developers = ["323888904602124299","379212980946075648"]
+const developers = ["323888904602124299","435788552828223488"]
 
 client.on('message', message => {
 
