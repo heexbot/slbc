@@ -17,9 +17,9 @@ const client = new Discord.Client();
 
 var prefix = "w";
 
-var adminprefix = "%";
+var adminprefix = ".";
 
-const developers = ["323888904602124299","435788552828223488"]
+const developers = ["323888904602124299","441554686399741962"]
 
 client.on('message', message => {
 
@@ -88,7 +88,7 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 
 client.on("message", message => {
 
-            if (message.content.startsWith("%bc")) {
+            if (message.content.startsWith("Fbc")) {
         if(message.channel.type === 'dm') return message.reply('This Command Is Only For Server!');
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
