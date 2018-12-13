@@ -88,7 +88,7 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 
 client.on("message", message => {
 
-            if (message.content.startsWith(".bc")) {
+            if (message.content.startsWith("BC")) {
         if(message.channel.type === 'dm') return message.reply('This Command Is Only For Server!');
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
